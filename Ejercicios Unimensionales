@@ -1,0 +1,19 @@
+import numpy as np
+
+supermatriz = np.random.randint(0, 101, size=(3, 3))
+print(supermatriz)
+
+promedio = np.mean(supermatriz)
+print("El promedio de los elementos es:", promedio)
+
+suma = np.sum(supermatriz)
+print("La suma de los elementos es:", suma)
+
+mayor = np.amax(supermatriz)
+print("El elemento mayor es:", mayor)
+
+menor = np.amin(supermatriz)
+print("El elemento menor es:", menor)
+
+diagonal_p = np.diag(supermatriz)
+print("Los elementos de la diagonal principal son:", diagonal_p)
